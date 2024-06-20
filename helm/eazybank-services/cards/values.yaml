@@ -1,15 +1,15 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-deploymentName: accounts-deployment
-serviceName: accounts
-appLabel: accounts
-appName: accounts
+deploymentName: cards-deployment
+serviceName: cards
+appLabel: cards
+appName: cards
 
 replicaCount: 1
 
 image:
-  repository: eazybytes/accounts
+  repository: eazybytes/cards
   tag: s14
 
 containerPort: 8080
